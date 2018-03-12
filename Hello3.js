@@ -1,17 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, Alert } from 'react-native';
-import {
-  Scene,
-  Router,
-  Actions,
-} from 'react-native-router-flux';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import {Actions} from 'react-native-router-flux';
 export default class Hello extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>Open up App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
-        <Button title="Go to hello1" onPress={Actions.hello1} />
+        <Button title="Go to message page" onPress={Actions.message} />
       </View>
     );
   }

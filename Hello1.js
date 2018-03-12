@@ -1,10 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Alert } from 'react-native';
-import {
-  Scene,
-  Router,
-  Actions,
-} from 'react-native-router-flux';
+import {Actions} from 'react-native-router-flux';
 
 export default class Hello extends React.Component {
   render() {
