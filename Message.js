@@ -14,7 +14,7 @@ export default class Message extends Component{
         return (
             <View style={styles.container}>
                 <Text style={styles.title}>message</Text>
-                <Button title="Go to hello3 page" onPress={Actions.hello3} />
+                <Button title="Go to hello1" onPress={Actions.hello1} />
             </View>
         );
     }
